@@ -32,9 +32,9 @@ module.exports = {
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
 
   // ===== OWNER & DEVELOPER SETTINGS =====
-  OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "2349021506036", // Default owner number
+  OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "", // Default owner number
   OWNER_NAME: getConfig("OWNER_NAME") || process.env.OWNER_NAME || "mxgamecoder",
-  DEV: process.env.DEV || "2349021506036", // Default owner number
+  DEV: process.env.DEV || "", // Default owner number
   DEVELOPER_NUMBER: '2349021506036@s.whatsapp.net',
 
   // ===== MEDIA & AUTOMATION =====
@@ -72,7 +72,7 @@ module.exports = {
   WELCOME: getConfig("WELCOME") || process.env.WELCOME || "false",
   GOODBYE: getConfig("GOODBYE") || process.env.GOODBYE || "false",
   ADMIN_ACTION: getConfig("ADMIN_ACTION") || process.env.ADMIN_ACTION || "false",
-  version: process.env.version || "1.0.0",
+  version: process.env.version || "1.2",
   TIMEZONE: settings.TIMEZONE || process.env.TIMEZONE || "Africa/Nigeria",
 
   // ===== CATEGORY-SPECIFIC IMAGE URLs =====

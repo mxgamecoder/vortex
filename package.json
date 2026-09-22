@@ -1,8 +1,10 @@
 {
   "name": "vortex",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A WhatsApp Bot",
   "main": "index.js",
+  "author": "mxgamecoder",
+  "license": "MIT",
   "engines": {
     "node": ">=20.x",
     "npm": ">=10.x"
