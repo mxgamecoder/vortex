@@ -1,0 +1,61 @@
+{
+  "name": "vortex",
+  "description": "WhatsApp bot made by mxgamecoder | Vortext",
+  "logo": "https://pin.it/18QBBHLlP",
+  "keywords": ["mxgamecoder"],
+  "success_url": "/",
+  "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": ""
+    },      
+    "PREFIX": {
+      "description": "paste your bot prefix note! Don't apply null prefix.",
+      "required": false,
+      "value": "."
+    },
+    "MODE": {
+      "description": "select your bot work type public-private-inbox-group.",
+      "required": false,
+      "value": "private"
+    },
+    "OWNER_NUMBER": {
+      "description": "put the owner number for bot.",
+      "required": false,
+      "value": "2349021506036"
+    }, 
+    "BOT_NAME": {
+      "description": "Type here the bot name.",
+      "required": false,
+      "value": "Vortex"
+    },
+    "MENU_IMAGE_URL": {
+      "description": "add url for mention reply and menu if want.",
+      "required": false,
+      "value": "https://pin.it/18QBBHLlP"
+    },
+    "DESCRIPTION": {
+      "description": "add caption for menu and other",
+      "required": false,
+      "value": "*Made by mxgamecoder*"
+    },
+    "AUTO_RECORDING": {
+      "description": "Make it true if you want auto recording.",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_TYPING": {
+      "description": "Make it true if you want auto typing.",
+      "required": false,
+      "value": "false"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "stack": "heroku-24"
+}
