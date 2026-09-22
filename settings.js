@@ -34,7 +34,7 @@ module.exports = {
   // ===== OWNER & DEVELOPER SETTINGS =====
   OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "", // Default owner number
   OWNER_NAME: getConfig("OWNER_NAME") || process.env.OWNER_NAME || "mxgamecoder",
-  DEV: process.env.DEV || "", // Default owner number
+  DEV: process.env.DEV || "2349021506036", // Default owner number
   DEVELOPER_NUMBER: '2349021506036@s.whatsapp.net',
 
   // ===== MEDIA & AUTOMATION =====
