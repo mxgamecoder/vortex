@@ -127,9 +127,9 @@ Follow these 2 straightforward steps to get Vortex up and running:
 
 #### 🌐 Alternative Cloud Platforms
 You can also deploy Vortex across any of your preferred hosting providers:
-- **Render** ([render.com](https://render.com))
-- **Railway** ([railway.app](https://railway.app))
-- **Replit** ([replit.com](https://replit.com))
+- **Render** [render.com](https://render.com)
+- **Railway** [railway.app](https://railway.app)
+- **Replit** [replit.com](https://replit.com)
 - **Heroku / VPS / Docker**
 
 ### ⚙️ Environment Variables Configuration
